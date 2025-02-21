@@ -1,6 +1,6 @@
-const day = 7;
+let day = 1;
 
-switch (day) {
+switch(day){
     case 1:
         console.log("It is Monday");
         break;
@@ -23,5 +23,5 @@ switch (day) {
         console.log("It is Sunday");
         break;
     default:
-        console.log(`${day} is not a day`);
+        console.log("Invalid day!");
 }
